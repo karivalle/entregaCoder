@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+
+}
+
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .espacio{
+    height: 40px;
+    display: block;
+    background-color: black;
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+    margin: 10px 0 0 -50px;
+    overflow: hidden;
+  }
+
+  .logo2 {
+    width: 90px;
+    height: 90px;
+    margin: 0 10px 0 100px;
+  }
+
+  .menu {
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 5;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+  .pruebaAnim {
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 280px;
+    animation: textoAnim 15s infinite;
+  }
+
+ h1{
+    display: inline-block;
+    font-weight: bolder;
+  }
+ 
+
+ul {
+  list-style: none;
+  text-align: left;
+  list-style-type: circle;
+  margin: 35px;
+}
+
+
+.section1 {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#fotoprincipal{
+  display: inline-block;
+  margin-top: 90px;
+  
+}
+
+#descripcion1{
+  display: inline;
+  margin-right: 30px;
+  width: auto;
+  height: 321px;
+  position: absolute;
+  padding: 160px 30px 30px 30px;
+  overflow: hidden;
+}
+
+.formulario {
+  margin: 30px;
+  padding: 50px;
+  background-image: linear-gradient(to left, rgb(255, 27, 225) , rgb(67, 208, 233));
+}
+
+form input {
+  margin-left: 80px;
+}
+
+body form {
+  border: solid 1px black;
+}
+
+.italic {
+  font-style: italic;
+}
+
+footer{
+  margin: 20px;
+  display: inline;
+}
+
+.grid {
+  display: grid;
+  padding: 3%;  
+  grid-template-columns: 5fr 2fr 2fr 2fr;
+  text-decoration: none;
+  color: black;
+}
+
+.gallery {
+  max-width: var(--wrapper);
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.gallery-title {
+  font-size: 2.3rem;
+  color: var(--purple-color);
+  font-weight: var(--font-regular);
+  margin-bottom: 2rem;
+}
+
+ 
+  @media (max-width:800px) and (min-width: 400px) {
+    #descripcion1{
+      padding: 100px 30px 10px 30px;
+      overflow: visible;
+    }
+}
